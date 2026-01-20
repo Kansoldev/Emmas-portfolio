@@ -2420,3 +2420,7 @@ a {
   font-size: 1.125rem;
   border-bottom: 2px dotted #000;
 }
+
+section + section {
+  margin-bottom: 40px;
+}
