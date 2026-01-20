@@ -2269,10 +2269,16 @@ a {
   border-radius: 50%;
 }
 
+@media (min-width: 768px) {
+  .image-5 {
+    height: 310px;
+    object-fit: cover;
+  }
+}
+
 @media (min-width: 992px) {
   .image-5 {
     margin-left: 50px;
-    width: 85%;
   }
 }
 
